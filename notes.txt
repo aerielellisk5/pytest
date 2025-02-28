@@ -1,0 +1,17 @@
+- to start the project
+python manage.py runserver
+
+-to start the env
+pipenv shell
+
+- to exit the env
+exit
+
+python manage.py startapp "name"
+-creates the application
+
+python manage.py makemigrations companies
+- does the edit for the migration
+
+python manage.py migrate
+- confirms the edit for the migration

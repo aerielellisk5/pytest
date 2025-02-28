@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 pytest = "*"
+djangorestframework = "*"
+black = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.13"
+
+[pipenv]
+allow_prereleases = true
